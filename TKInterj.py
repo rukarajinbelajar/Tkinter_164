@@ -19,3 +19,20 @@ label_judul.pack(pady=(25, 20))
 
 frame_input = tk.Frame(top, bg="#1a2560")
 frame_input.pack()
+
+entries = []
+for i in range(10):
+    lbl = tk.Label(
+        frame_input,
+        text="Nilai Mata Pelajaran " + str(i + 1) + ":",
+        font=("Arial", 11, "bold"),
+        bg="#1a2560",
+        fg="white",
+        anchor="e",
+        width=22,
+    )
+    lbl.grid(row=i, column=0, padx=5, pady=5)
+ 
+    ent = tk.Entry(frame_input, bd=3, width=15)
+    ent.grid(row=i, column=1, padx=5, pady=5)
+    entries.append(ent)
