@@ -60,3 +60,11 @@ pilihan_jurusan.set(daftar_jurusan[0])
 menu_jurusan = tk.OptionMenu(top, pilihan_jurusan, *daftar_jurusan)
 menu_jurusan.config(width=22, bg="white", fg="black")
 menu_jurusan.pack()
+
+tombol = tk.Button(
+    top,
+    text="Hasil Prediksi",
+    font=("Arial", 11, "bold"),
+    command=hasil_prediksi,
+)
+tombol.pack(pady=20)
