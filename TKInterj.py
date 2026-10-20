@@ -16,3 +16,6 @@ label_judul = tk.Label(
     fg="white",
 )
 label_judul.pack(pady=(25, 20))
+
+frame_input = tk.Frame(top, bg="#1a2560")
+frame_input.pack()
