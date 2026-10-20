@@ -45,3 +45,13 @@ label_jurusan = tk.Label(
     fg="white",
 )
 label_jurusan.pack(pady=(25, 5))
+
+daftar_jurusan = [
+    "Teknologi Informasi",
+    "Teknik Mesin",
+    "Teknik Elektro",
+    "Teknik Sipil",
+    "Teknologi Rekayasa Otomotif",
+    "Teknologi Elektro Medis",
+    "Artificial Intellegence",
+]
