@@ -68,3 +68,12 @@ tombol = tk.Button(
     command=hasil_prediksi,
 )
 tombol.pack(pady=20)
+
+label_hasil = tk.Label(
+    top,
+    text="",
+    font=("Arial", 13, "bold"),
+    bg="#1a2560",
+    fg="cyan",
+)
+label_hasil.pack()
