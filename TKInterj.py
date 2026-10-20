@@ -36,3 +36,12 @@ for i in range(10):
     ent = tk.Entry(frame_input, bd=3, width=15)
     ent.grid(row=i, column=1, padx=5, pady=5)
     entries.append(ent)
+
+label_jurusan = tk.Label(
+    top,
+    text="Pilihan Jurusan Anda:",
+    font=("Arial", 11, "bold"),
+    bg="#1a2560",
+    fg="white",
+)
+label_jurusan.pack(pady=(25, 5))
