@@ -77,5 +77,5 @@ label_hasil = tk.Label(
     fg="cyan",
 )
 label_hasil.pack()
-
+ 
 top.mainloop()
