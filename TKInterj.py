@@ -55,3 +55,8 @@ daftar_jurusan = [
     "Teknologi Elektro Medis",
     "Artificial Intellegence",
 ]
+pilihan_jurusan = tk.StringVar(top)
+pilihan_jurusan.set(daftar_jurusan[0])
+menu_jurusan = tk.OptionMenu(top, pilihan_jurusan, *daftar_jurusan)
+menu_jurusan.config(width=22, bg="white", fg="black")
+menu_jurusan.pack()
